@@ -100,7 +100,6 @@ h1 {
     transition: 1s;
 }
 
-
 p {
     background: rgba(0, 0, 0, 0.466);
     height: 60px;
@@ -118,8 +117,48 @@ h2 {
     transition: 1s;
 }
 
-/* Media Queries */
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    #Resultebox {
+        height: 50vh;
+        padding: 3%;
+    }
+
+    #Resulte {
+        font-size: 3.5rem;
+    }
+
+    #nombre {
+        font-size: 3.5rem;
+    }
+
+    #btns {
+        padding: 3%;
+    }
+
+    .button, #calculer {
+        font-size: 1.8rem;
+    }
+
+    ul {
+        font-size: 1.8rem;
+    }
+
+    li {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
+
 @media (max-width: 768px) {
+    h1 {
+        font-size: 6rem;
+    }
+
     #Resultebox, #btns {
         width: 100%;
         padding: 10px;
@@ -140,7 +179,46 @@ h2 {
         height: 60px;
     }
 
+    li {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
     p {
         font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    #Resultebox {
+        height: 40vh;
+        padding: 5px;
+    }
+
+    #Resulte, #nombre {
+        font-size: 2rem;
+    }
+
+    .button, #calculer {
+        font-size: 1.2rem;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+
+    li {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    p {
+        font-size: 0.8rem;
+        padding: 0.5rem;
     }
 }
