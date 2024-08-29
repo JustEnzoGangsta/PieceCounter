@@ -32,7 +32,7 @@ body {
     font-size: 4rem;
     color: rgb(0, 0, 0);
     border: 4px outset rgb(0, 0, 0);
-    background: rgba(0, 255, 0, 0.37);
+    background: rgba(255, 194, 28, 0.37);
     padding: 1rem;
     text-align: center;
 }
@@ -44,15 +44,15 @@ body {
 #nombre {
     font-size: 4rem;
     text-align: center;
-    color: rgb(0, 138, 46);
+    color: rgb(214, 139, 0);
     background: rgba(0, 0, 0, 0.596);
     transition: 1s;
     padding: 1rem;
 }
 
 #btns {
-    background: url(./assets/dollars-499481_1280.jpg) center/cover no-repeat;
-    border: 4px outset black;
+    background: rgba(255, 68, 0, 0.384) center/cover no-repeat;
+    border: 7px outset black;
     width: 90%;
     max-width: 1200px;
     margin: 5% auto;
@@ -67,6 +67,8 @@ body {
     font-size: 2rem;
     letter-spacing: 5px;
     margin-bottom: 10px;
+    background-color: rgb(255, 166, 0);
+    border: 10px outset black;
 }
 
 ul {
@@ -88,6 +90,10 @@ p {
     font-size: 2rem;
     color: white;
     padding: 1rem;
+}
+
+#nombre h2 {
+    text-shadow: -2px 8px rgb(187, 90, 0);
 }
 
 /* Media Queries */
