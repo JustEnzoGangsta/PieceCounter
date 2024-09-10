@@ -20,7 +20,7 @@ a {
 }
 
 body {
-    background: url(./assets/./background/background.png) center/cover no-repeat fixed;
+    background: url(./assets/background.png) center/cover no-repeat fixed;
     margin: 0;
     padding: 0;
     font-size: 100%;
