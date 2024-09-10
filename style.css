@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap');
 
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+#Utilitaries {
+    color: rgba(0, 255, 255, 0.507);
+}
+
 .new-amsterdam-regular {
     font-family: "New Amsterdam", system-ui;
     font-weight: 400;
@@ -11,7 +20,7 @@
 }
 
 body {
-    background: url(./assets/euro-1353420_1280.jpg) center/cover no-repeat;
+    background: url(./assets/./background/background.png) center/cover no-repeat fixed;
     margin: 0;
     padding: 0;
     font-size: 100%;
@@ -22,8 +31,8 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 0;
-    background: rgba(255, 0, 0, 0.288);
-    border: 5px outset black;
+    background: rgba(255, 255, 255, 0);
+    border: 5px outset rgba(0, 132, 255, 0);
     height: 80px;
     font-size: 2rem;
     list-style-type: none;
@@ -44,14 +53,15 @@ li {
 h1 {
     text-align: center;
     font-size: 10rem;
-    color: rgb(255, 94, 0);
-    background: rgb(255, 185, 55);
+    color: rgb(0, 204, 255);
+    background: rgba(0, 110, 255, 0.596);
     position: relative;
+    transition: 1s;
 }
 
 #Resultebox {
-    background: url(./assets/save-up-4666418_1280.jpg) center/cover no-repeat;
-    border: 10px outset rgb(163, 60, 0);
+    background: rgba(0, 204, 255, 0.308) center/cover no-repeat;
+    border: 10px outset rgba(0, 60, 255, 0);
     width: 90%;
     max-width: 1200px;
     height: 60vh;
@@ -63,9 +73,9 @@ h1 {
 
 #Resulte {
     font-size: 4rem;
-    color: rgb(0, 0, 0);
-    border: 4px outset rgb(0, 0, 0);
-    background: rgba(255, 194, 28, 0.37);
+    color: rgb(0, 217, 255);
+    border: 4px outset rgba(0, 0, 0, 0);
+    background: rgba(0, 38, 255, 0.308);
     padding: 1rem;
     text-align: center;
 }
@@ -73,14 +83,14 @@ h1 {
 #nombre {
     font-size: 4rem;
     text-align: center;
-    color: rgb(255, 174, 0);
+    color: rgb(0, 255, 242);
     transition: 1s;
     padding: 1rem;
 }
 
 #btns {
-    background: rgba(255, 68, 0, 0.384) center/cover no-repeat;
-    border: 7px outset black;
+    background: rgba(0, 255, 242, 0.384) center/cover no-repeat;
+    border: 7px outset rgba(0, 225, 255, 0);
     width: 90%;
     max-width: 1200px;
     margin: 5% auto;
@@ -95,8 +105,8 @@ h1 {
     font-size: 2rem;
     letter-spacing: 5px;
     margin-bottom: 10px;
-    background-color: rgb(255, 166, 0);
-    border: 10px outset black;
+    background: rgb(0, 255, 242);
+    border: 10px outset rgba(0, 0, 0, 0);
     transition: 1s;
 }
 
@@ -110,7 +120,7 @@ p {
 }
 
 #nombre h2 {
-    text-shadow: -2px 8px rgb(187, 90, 0);
+    text-shadow: -2px 8px rgb(0, 60, 255);
 }
 
 h2 {

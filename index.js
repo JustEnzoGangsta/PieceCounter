@@ -14,47 +14,58 @@ var btn04 = document.querySelector("#btn04");
 var calculer = document.querySelector("#calculer");
 var resultetxt = document.querySelector("#nombre");
 var texth2 = document.querySelector("h2");
+var LastNum = document.querySelector("#LastNum");
 
 btn01.addEventListener("click", () => {
   resulte = resulte + 0.01;
+  LastNum = 0.01;
 });
 
 btn02.addEventListener("click", () => {
   resulte = resulte + 0.02;
+  LastNum = 0.02;
 });
 
 btn03.addEventListener("click", () => {
   resulte = resulte + 0.05;
+  LastNum = 0.05;
 });
 
 btn04.addEventListener("click", () => {
   resulte = resulte + 0.2;
+  LastNum = 0.2;
 });
 
 btn1.addEventListener("click", () => {
   resulte = resulte + 0.5;
+  LastNum = 0.5;
 });
 
 btn2.addEventListener("click", () => {
   resulte = resulte + 1;
+  LastNum = 1;
 });
 
 btn3.addEventListener("click", () => {
   resulte = resulte + 2;
+  LastNum = 2;
 });
 
 btn4.addEventListener("click", () => {
   resulte = resulte + 5;
+  LastNum = 5;
 });
 
 btn5.addEventListener("click", () => {
   resulte = resulte + 10;
+  LastNum = 10;
 });
 
 calculer.addEventListener("click", () => {
   resultetxt.innerHTML = `
       <h2>${resulte}</h2>
   `;
+
   resultetxt.style.transform = "rotate(2deg)";
   resultetxt.style.background = "rgba(0, 0, 0, 0.596)";
 });
@@ -156,4 +167,8 @@ texth2.addEventListener("mouseover", () => {
 
 texth2.addEventListener("mouseout", () => {
   texth2.style.transform = "rotate(0deg)";
+});
+
+LastNum.addEventListener("click", () => {
+  resulte = resulte - LastNum;
 });
